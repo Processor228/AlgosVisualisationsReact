@@ -1,2 +1,2 @@
 # AlgosVisualisationsReact
-React app with algorithms visualisation
+React app for visualisation of algorithms.
