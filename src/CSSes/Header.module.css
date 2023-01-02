@@ -1,0 +1,51 @@
+.container {
+    /*border: #0c0d13 solid 1px;*/
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.events {
+    margin: 3px;
+    background-color: #0c0d13;
+    border-radius: 5px;
+    /*border: black solid 1px;*/
+}
+
+.userInfo {
+    background-color: #0c0d13;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+.person {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.socialSection {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #666666;
+    border-radius: 5px;
+}
+
+.link {
+    color: black;
+    /*border-bottom: black 1px solid;*/
+    text-decoration: none;
+    display: inline-block;
+}
+
+.link:hover {
+    color: #dddddd;
+}
+
+.edit {
+    /*background-color: #0c0d13;*/
+
+}
+
+.profile {
+    /*background-color: #0c0d13;*/
+}

@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Start {
+    background-color: red;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0 3px 0 darkred;
+}
+
+.Start:hover {
+    background-color: #555;
+    box-shadow: none;
+}
+
+.Start:active {
+    background-color: black;
+}

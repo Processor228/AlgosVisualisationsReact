@@ -1,0 +1,19 @@
+.container {
+    /*border: black solid 1px;*/
+}
+
+.link {
+    margin: 5px;
+    width: 100%;
+    color: black;
+    background-color: #666666;
+    text-align: center;
+    border-radius: 5px;
+    /*border-bottom: black 1px solid;*/
+    text-decoration: none;
+    display: inline-block;
+}
+
+.link:hover {
+    color: #dddddd;
+}

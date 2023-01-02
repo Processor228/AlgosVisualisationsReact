@@ -1,0 +1,12 @@
+.container {
+
+}
+
+.nameChanger {
+    background-color: #dddddd;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+}

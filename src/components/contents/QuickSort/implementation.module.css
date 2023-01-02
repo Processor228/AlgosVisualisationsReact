@@ -1,0 +1,25 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    column-gap: 1%;
+    grid-template-columns: repeat(20, 1fr);
+}
+
+.quantity {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    opacity: 80%;
+    align-self: end;
+}
+
+.quantity:hover {
+    opacity: 50%;
+}
+
+.emphasis {
+    opacity: 30%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    align-self: end;
+}
