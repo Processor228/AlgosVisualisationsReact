@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    grid-gap: 10px;
+    /*background-image: linear-gradient(black, gray);*/
+    color: #666666;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.columned {
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    grid-gap: 10px;
+    /*height: 70%;*/
+}
+
+.menuHandler{
+    align-self: start;
+}
+
+.contenter {
+    background-color: #0c0d13;
+    border-radius: 7px;
+    height: 86vh;
+}
+
+.item{
+
+}
+
+.footer {
+    height: 10vh;
+}
