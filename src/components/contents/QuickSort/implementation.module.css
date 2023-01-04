@@ -17,9 +17,23 @@
     opacity: 50%;
 }
 
-.emphasis {
+.emphasisCompared {
     opacity: 30%;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     align-self: end;
+    border: solid red 3px;
 }
+
+.emphasisPivot {
+    opacity: 30%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    align-self: end;
+    border: solid white 3px;
+}
+
+.restart {
+
+}
+

@@ -6,6 +6,6 @@ import Quicky from "./quicky";
 import gameState from "./ProcessState";
 
 
-export default () => {   //TODO rerender the quicky
+export default () => {
     ReactDOM.render(<Implementation array={gameState.numbers}/>, document.getElementById("content"));
 }

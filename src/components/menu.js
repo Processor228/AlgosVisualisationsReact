@@ -5,13 +5,13 @@ const Menu = () => {
     return(
         <div className={style.container}>
             {/*<Router>*/}
-                <NavLink to="/content/quick" className={style.link}>
+                <a href="/content/quick" className={style.link}>
                     QuickSort Algorithm
-                </NavLink>
+                </a>
                 <br/>
-                <NavLink to="/content/topos" className={style.link}>
+                <a href="/content/topos" className={style.link}>
                     TopoSort
-                </NavLink>
+                </a>
             {/*</Router>*/}
         </div>
     )

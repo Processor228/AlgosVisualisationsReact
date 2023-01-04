@@ -15,15 +15,12 @@ const App = () => {
             <BrowserRouter>
                 <Header events={State.globalEvents} person={State.user}/>
                 <div className={style.columned + " " + style.item}>
-
                         <div className={style.menuHandler}>
                             <Menu/>
                         </div>
                         <div className={style.contenter}>
                             <Routes>
                                 <Route path="*" element={<Cont/>}/>
-                                <Route path="/profile/" element={<Profile user={State.user} articles={State.articles}/>}/>
-                                <Route path="/profile/edit" element={<Edit user={State.user}/>}/>
                             </Routes>
                         </div>
 

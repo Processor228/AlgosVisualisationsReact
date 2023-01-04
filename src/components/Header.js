@@ -1,5 +1,9 @@
 import style from "../CSSes/Header.module.css";
 import {NavLink} from "react-router-dom";
+import processState from "./contents/QuickSort/ProcessState";
+import but from "./contents/QuickSort/quicky.module.css";
+import st from "./contents/QuickSort/implementation.module.css";
+import {gameStarter} from "./contents/QuickSort/quicky";
 
 const Header = (props) => {
 
@@ -7,31 +11,19 @@ const Header = (props) => {
      for(let key in props.events) {
          arrayOfEvents.push(<div key={key}> {props.events[key]} </div>)
      }
-
+    const renderRestartButton = () => {
+        // console.log(processState)
+        if(processState.gameIsOn === true) {
+            return (
+                <div>
+                    <button className={but.Start + " " + st.restart} onClick={gameStarter}> Restart </button>
+                </div>);
+        }
+    }
+    console.log(processState)
     return(
         <div className={style.container}>
-            <div className={style.events}>
-                {arrayOfEvents}
-            </div>
-            <div className={style.person}>
-                <div className={style.userInfo}>
-                    {props.person.username}
-                    <br/>
-                    Tokens : {props.person.tokens}
-                </div>
-                <div className={style.socialSection}>
-                    <div className={style.edit}>
-                        <NavLink to="/profile/" className={style.link}>
-                            Profile
-                        </NavLink>
-                    </div>
-                    <div className={style.profile}>
-                        <NavLink to="/profile/edit" className={style.link}>
-                            Edit
-                        </NavLink>
-                    </div>
-                </div>
-            </div>
+            {renderRestartButton()}
         </div>
     );
 }
